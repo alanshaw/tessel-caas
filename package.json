@@ -1,0 +1,28 @@
+{
+  "name": "tessel-caas",
+  "version": "0.0.0",
+  "description": "Tessel camera as a service is a couple of scripts that expose a feed to the Tessel camera module over a dnode connection.",
+  "main": "server.js",
+  "dependencies": {
+    "dataurl": "^0.1.0",
+    "dnode": "^1.2.0",
+    "ecstatic": "^0.5.4",
+    "shoe": "^0.0.15",
+    "tessel": "^0.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alanshaw/tessel-caas.git"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanshaw/tessel-caas/issues"
+  },
+  "homepage": "https://github.com/alanshaw/tessel-caas"
+}

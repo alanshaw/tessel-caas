@@ -1,0 +1,23 @@
+{
+  "name": "camera",
+  "version": "0.0.0",
+  "description": "",
+  "main": "camera.js",
+  "dependencies": {
+    "camera-vc0706": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alanshaw/tessel-caas.git"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanshaw/tessel-caas/issues"
+  },
+  "homepage": "https://github.com/alanshaw/tessel-caas"
+}
