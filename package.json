@@ -10,10 +10,13 @@
     "shoe": "^0.0.15",
     "tessel": "^0.3.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^4.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "browserify": "browserify client.js > static/bundle.js"
   },
   "repository": {
     "type": "git",

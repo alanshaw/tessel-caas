@@ -9,6 +9,7 @@ Plug camera module into port "B".
 ```sh
 cd /path/to/tessel-caas
 npm install
+npm run browserify
 cd camera
 npm install
 cd ..
