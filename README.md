@@ -2,6 +2,8 @@
 
 Tessel camera as a service is a couple of scripts that expose a feed to the Tessel camera module over a dnode connection.
 
+![Screenshot](https://raw.github.com/alanshaw/tessel-caas/master/screenshot.png)
+
 ## Getting started
 
 Plug camera module into port "B".
@@ -13,7 +15,7 @@ npm run browserify
 cd camera
 npm install
 cd ..
-node server
+npm start
 open http://localhost:5004
 ```
 
